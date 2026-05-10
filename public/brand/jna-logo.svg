@@ -1,0 +1,52 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JNArchitects logo</title>
+  <desc id="desc">Circular JNA Architects mark with gold rings, architectural tower, and JNA initials.</desc>
+  <defs>
+    <linearGradient id="gold" x1="95" y1="82" x2="408" y2="431" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E59B"/>
+      <stop offset="0.35" stop-color="#B98921"/>
+      <stop offset="0.68" stop-color="#F4D66D"/>
+      <stop offset="1" stop-color="#8A6418"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="155" y1="141" x2="356" y2="373" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#77736B"/>
+      <stop offset="0.48" stop-color="#1F2530"/>
+      <stop offset="1" stop-color="#52565C"/>
+    </linearGradient>
+    <filter id="shadow" x="42" y="38" width="428" height="432" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#07111E" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="244" fill="#FFFFFF"/>
+  <g filter="url(#shadow)">
+    <circle cx="256" cy="256" r="220" fill="#FFFEFA"/>
+    <circle cx="256" cy="256" r="210" stroke="url(#gold)" stroke-width="7"/>
+    <circle cx="256" cy="256" r="188" stroke="url(#gold)" stroke-width="4"/>
+  </g>
+
+  <path d="M165 320H347" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M221 168L275 136V327H221V168Z" fill="url(#steel)"/>
+  <path d="M276 106L313 61V327H276V106Z" fill="url(#steel)"/>
+  <path d="M192 222L221 204V327H192V222Z" fill="url(#gold)"/>
+  <path d="M217 172L221 168V327H217V172Z" fill="#F3D66F" opacity="0.72"/>
+  <path d="M274 137L276 106V327H274V137Z" fill="#F7DE79" opacity="0.55"/>
+
+  <g opacity="0.85">
+    <rect x="232" y="188" width="9" height="14" fill="#F4D66D"/>
+    <rect x="249" y="178" width="9" height="14" fill="#F4D66D"/>
+    <rect x="232" y="214" width="9" height="14" fill="#F4D66D"/>
+    <rect x="249" y="204" width="9" height="14" fill="#F4D66D"/>
+    <rect x="232" y="240" width="9" height="14" fill="#F4D66D"/>
+    <rect x="249" y="230" width="9" height="14" fill="#F4D66D"/>
+    <rect x="286" y="133" width="9" height="15" fill="#F4D66D"/>
+    <rect x="286" y="160" width="9" height="15" fill="#F4D66D"/>
+    <rect x="286" y="187" width="9" height="15" fill="#F4D66D"/>
+    <rect x="286" y="214" width="9" height="15" fill="#F4D66D"/>
+    <rect x="203" y="244" width="8" height="12" fill="#30353C"/>
+    <rect x="203" y="268" width="8" height="12" fill="#30353C"/>
+  </g>
+
+  <text x="256" y="349" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="700" letter-spacing="-8" fill="url(#steel)">JNA</text>
+  <text x="257" y="399" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="12" fill="#C49A32">JNARCHITECTS</text>
+</svg>
